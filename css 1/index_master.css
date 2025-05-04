@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+/*css to disable text highlight will not be able to use ctrl + C  */
+body {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none; 
+}
+/*CSS ends */
+
+/*css to remove image load option in mobile */
+img {
+	pointer-events: none;
+}
+/*CSS ends */
+
+:root {
+    --color_background: rgb(212, 224, 203);
+    /* --color_background: antiquewhite; */
+    --color_text: #cae4eb80;
+    --color_A: rgb(56, 129, 255);
+    --color_press: #009e05;
+    
+    
+}
+.container {
+    width: 100%;
+    /* margin: auto; */
+    padding-top: 10px;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    /* border: 2px solid black;
+    box-shadow: 10px 10px 5px var(--color_background);
+    border-radius: 5px; */
+    
+}
+
+.container .head nav {
+    width: 100%;
+    height: auto;
+    background-color: #cae4eb80;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* margin: 10px ; */
+    /* border-radius: 10px;
+    box-shadow: 10px 10px 5px var(--color_background);
+    border: 1px solid black; */
+}
+
+.container .head nav ul {
+    background-color: var(--color_background);
+    border-radius: 20px;
+}
+.container .head nav ul li {
+    margin: 1rem 5rem;
+    display: inline-block;
+    font-size: 20px;
+   
+    
+}
+.container .head nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+    font-weight: bold;
+    
+}
+.logo {
+    width: 100px;
+}
+.container .head nav ul li a:hover {
+    color: var(--color_A);
+    text-decoration-line: overline;
+    transform: scale(1.2);
+}
+.content {
+    width: 75%;
+    height: auto;
+    margin-top: 20px;
+    
+}
+
+.comparisons  h2 {
+    
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+    background-color: var(--color_background);
+    box-shadow: 10px 10px 5px var(--color_text);
+    border: 1px solid black;
+}
+.content .comparisons .three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .comparisons .claas_universities {
+    width: 30%;
+    font-size: 10px;
+    display: flex;
+    background-color: var(--color_text);
+    /* justify-content: start; */
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 1px solid var(--color_press);
+    
+}
+.content .comparisons .claas_universities img {
+    width: 20%;
+}
+.others {
+    width: 20%;
+    position: absolute;
+    top: 15.5%;
+    right: 75.5%;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+    background-color: var(--color_background);
+    box-shadow: 10px 10px 5px var(--color_text);
+    border: 1px solid black;
+}
+.content .comparisons .TR-YOS {
+    width: 20%;
+    height: 25%;
+    position: absolute;
+    top: 32%;
+    right: 75.5%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color_text);
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 1px solid var(--color_press);
+}
+.content .comparisons .TR-YOS img {
+    width: 25%;
+}
+.content .comparisons .un {
+    width: 20%;
+    height: 26%;
+    position: absolute;
+    top: 70%;
+    right: 75.5%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color_text);
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 1px solid var(--color_press);
+}
+.content .comparisons .un img {
+    width: 25%;
+}
+.content .comparisons .TB {
+    width: 20%;
+    height: 26%;
+    position: absolute;
+    top: 108%;
+    right: 75.5%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color_text);
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 1px solid var(--color_press);
+}
+.content .comparisons .TB img {
+    width: 25%;
+}
+.content .comparisons p {
+    margin: 20px;
+}
+.content .comparisons a {
+    text-decoration: none;
+    color: var(--color_press);
+    transition: 0.3s;
+}
+.content .comparisons a:hover {
+    color: var(--color_A);
+    text-decoration-line: overline;
+    transform: scale(1.2);
+}
+.content .comparisons .for_more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.labib {
+    
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+.labib a{
+    color: goldenrod;
+    margin-left: 20px;
+   
+}
+footer .icons {
+    background-color: var(--color_background);
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+footer p {
+    padding-right: 25px;
+}
+footer .icons .image img ,
+footer .icons .image a {
+    width: 20px;
+    margin: 0 10px;
+}
+
+@media (max-width:900px) {
+    nav , nav ul li{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+      width: 540px;
+      font-size: 50%;
+      
+    }
+    .content {
+        width: 100%;
+    }
+    .container .head nav ul li {
+        margin: 8px 20px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .content .comparisons h2 {
+        padding: 10px;
+    }
+    .content .comparisons .claas_universities p  {
+        margin: 10px 0;
+    }
+    .content .comparisons .claas_universities p b  {
+        font-size: 8px;
+    }
+    .content .comparisons .claas_universities a {
+        font-size: 10px;
+    }
+    .content .comparisons .claas_universities img{
+        width: 40px;
+    }
+    .others {
+        position: static;
+        width: 90%;
+    }
+    .content .comparisons .TR-YOS ,    
+    .content .comparisons .un , 
+    .content .comparisons .TB , 
+    .others {
+        position: static;
+        width: 88.5%;
+        height: 25%;
+    }
+    .content .comparisons .TR-YOS img ,
+    .content .comparisons .un img ,
+    .content .comparisons .TB img {
+        width: 10%;
+    }
+    .container .head .content .for_more p {
+        margin: 10px;
+    }
+    .container .head nav ul li a,
+    footer .icons p ,
+    .labib{
+        font-size: 75%; 
+    }
+    .container .head .content p {
+        font-size: 12px;
+    }
+    footer .icons {
+        width: 540px;
+    }
+    footer .icons .image img ,
+    footer .icons .image a {
+    
+        width: 10px;
+        margin: 0 5px;
+        
+    }
+   
+  }
+
+  @media (max-width: 1200px) {
+    .content .comparisons .TR-YOS ,    
+    .content .comparisons .un , 
+    .content .comparisons .TB ,
+    .others {
+        position: static;
+        width: 88.5%;
+        height: 25%;
+    }
+    .content .comparisons .TR-YOS img ,
+    .content .comparisons .un img ,
+    .content .comparisons .TB img {
+        width: 10%;
+    }
+  }
+/* @media (min-width: 576px) {
+    .container {
+      width: 540px;
+    }
+  } */
+  /* @media (min-width: 768px) {
+    .container {
+      width: 720px;
+    }
+  } */
+  /* Medium */
+  /* @media (min-width: 992px) {
+    .container {
+      width: 960px;
+    }
+  } */
+  /* Large */
+  /* @media (min-width: 1200px) {
+    .container {
+      width: 1140px;
+    }
+  } */
+  /* X-Large */
+  /* @media (min-width: 1400px) {
+    .container {
+      width: 1320px;
+      
+    }
+  } */
+
+
+

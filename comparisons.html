@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تقويم المفاضلات للطلاب الدوليين الراغبين في التسجيل على الجامعات الحكومية التركية">
+    <meta name="keywords" content="تقويم المفاضلات , الدراسة في تركيا , تسجيل يوني , الجامعات التركية, comparisons , tukye , türkiye ">
+    <meta content="تسجيل يوني للخدمات الجامعية" property="og:site_name">
+    <meta name="author" content="Labib ALDALATI">
+    <title>comparisons of yös || تقويم المفاضلات </title>   
+    <link rel="icon" href="images/tesjil_logo.jpg">
+    <!-- main master CSS file -->
+    <link rel="stylesheet" href="css/comparisons_master.css">
+    <!-- render all elements normaly -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap"
+    rel="stylesheet">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9789081707423123"
+     crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-238199667-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-238199667-1');
+    </script>
+
+    <!-- adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1171331595883297"
+     crossorigin="anonymous"></script>
+     
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<style>
+    /* إضافة نمط للأزرار */
+    .language-button {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 5px;
+        z-index: 9999;
+        transition: left 0.3s, right 0.3s;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .language-button img {
+        width: 30px;
+        height: 25px;
+    }
+    .btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #languageButtonTurkish { left: 10px; }
+    #languageButtonEnglish { right: 10px; }
+</style>
+
+<body lang="ar" dir="rtl">
+
+    <!-- زر اللغة التركية -->
+    <button id="languageButtonTurkish" class="language-button btn" style="display: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/420px-Flag_of_Turkey.svg.png" alt="tr">
+    </button>
+
+    <!-- زر اللغة الإنجليزية -->
+    <button id="languageButtonEnglish" class="language-button btn" style="display: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/383px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="en">
+    </button>
+
+    <script>
+        // تحديد اللغة الحالية
+        const currentLang = document.documentElement.lang;
+
+        // عرض الأزرار بناءً على اللغة الحالية
+        if (currentLang === 'ar') {
+            // إذا كانت اللغة العربية، نعرض أزرار التبديل إلى التركية والإنجليزية
+            document.getElementById('languageButtonTurkish').style.display = 'block';
+            document.getElementById('languageButtonEnglish').style.display = 'block';
+        }
+
+        // عند النقر على زر اللغة التركية
+        document.getElementById('languageButtonTurkish').onclick = function () {
+            window.location.href = './tr/index.html';  // توجيه لصفحة اللغة التركية
+            document.documentElement.lang = 'tr';  // تغيير اللغة إلى التركية
+        };
+
+        // عند النقر على زر اللغة الإنجليزية
+        document.getElementById('languageButtonEnglish').onclick = function () {
+            window.location.href = './en/index.html';  // توجيه لصفحة اللغة الإنجليزية
+            document.documentElement.lang = 'en';  // تغيير اللغة إلى الإنجليزية
+        };
+    </script>
+ <!-- Spinner Start -->
+ <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">جاري التحميل...</span>
+    </div>
+</div>
+<!-- Spinner End -->
+
+
+<!-- Topbar Start -->
+<div class="container-fluid bg-light p-0">
+    <div class="row gx-0 d-none d-lg-flex" dir="rtl">
+        <div class="col-lg-7 px-5 text-end">
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                <small>غازي عنتاب، تركيا</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center py-3">
+                <small class="far fa-clock text-primary me-2"></small>
+                <small>من الاثنين إلى الجمعة: 09:00 ص - 09:00 م</small>
+            </div>
+        </div>
+        <div class="col-lg-5 px-5 text-start">
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                <small class="fa fa-phone-alt text-primary me-2"></small>
+                <!-- <small>+905525455592</small> -->
+            </div>
+            <div class="h-100 d-inline-flex align-items-center">
+                <a class="btn btn-sm-square bg-white text-primary me-1" target="_blank" href="https://www.facebook.com/groups/415611100597993"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-sm-square bg-white text-primary me-1" target="_blank" href="mailto:tesjiluni@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a class="btn btn-sm-square bg-white text-primary me-1" target="_blank" href="https://t.me/tesjiluni"><i class="fab fa-telegram"></i></a>
+                <!-- <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img class="" src="img/tesjil_logo.jpg" alt="" width="50px">
+            <!-- <h2 class="m-0 text-primary">Tesjil Uni</h2> -->
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <!-- <a href="project.html" class="nav-item nav-link">Project</a> -->
+                <!-- <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div> -->
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">start<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+
+
+    <div class="container">
+        <div class="head">
+            <div class="content">
+                
+                <h3>نظرة عامة : </h3>
+                <ul>
+                    <li>يعد تقويم المفاضلات من اهم الصفحات , اذ يمكن للطلاب الاطلاع على جميع التواريخ المتعلقة 
+                        بالتسجيل على الجامعات الحكومية التركية </li>
+                </ul>
+                <h3>ماذا يحتوي التقويم ؟ </h3>
+                <ul>
+                    <li>الجامعة</li>
+                    <li>المدينة</li>
+                    <li>بدء التسجيل</li>
+                    <li>انتهاء التسجيل</li>
+                    <li>موعد النتائج </li>
+                    <li>الشهادات المقبولة</li>
+                    <li>تفاصيل الجامعة</li>
+                </ul>
+
+
+                <div class="table">
+                    <table><caption><h2>تقويم المفاضلات 2023 <br>التقويم يحتوي فقط على الجامعات المتاح التسجيل عليها وليس جميع الجامعات الحكومية التركية <br>
+                            للوصول الى جميع الجامعات الحكومية التركية <br><a href="universiteler.html">اضغط هنا </a><br>التقويم مرتب حسب تاريخ انتهاء التسجيل</h2></caption>
+                        <article>
+                            <thead>
+                                <tr>
+                                    <th>الجامعة</th><th>المدينة</th><th>بدء التسجيل</th>
+                                    <th>انتهاء التسجيل</th><th>النتائج</th><th>الشهادات المقبولة</th>
+                                    <th>التفاصيل </th>
+                                </tr>  
+                            </thead>
+                            <tbody>
+                            
+                        
+                            <tr class="not_empty">
+                                <td>Anadolu Üni</td><td>اسكي شهير</td><td>01/02/2023</td>
+                                <td>15/02/2023</td><td>20/02/2023</td><td>يوس الجامعة 2022 - SAT - ثانوية</td>
+                                <td><a href="universites_file/html/Anadolu.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit Üni (50$)</td><td>تشوروم</td><td>26/01/2023</td>
+                                <td>18/02/2023</td><td>20/02/2023</td><td>YÖS - ثانوية - SAT 1 - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Dokuz Eylül Üni</td><td>ازمير</td><td>01/02/2023</td>
+                                <td>27/02/2023</td><td>16/03/2023</td><td>YÖS - ثانوية - SAT 1 - موحد</td>
+                                <td><a href="universites_file/html/dokuz eylül.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>bolu abant izzet baysal Üni</td><td>بولو</td><td>27/02/2023</td>
+                                <td>03/03/2023</td><td>10/03/2023</td><td>ثانوية</td>
+                                <td><a href="universites_file/html/bolu abant izzet baysal.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bursa Teknik Üni</td><td>بورصة</td><td>08/03/2023</td>
+                                <td>08/03/2023</td><td>09/03/2023</td><td>YÖS - ثانوية - SAT</td>
+                                <td><a href="universites_file/html/Bursa Teknik.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit Üni 2(50$)</td><td>تشوروم</td><td>27/02/2023</td>
+                                <td>10/03/2023</td><td>13/03/2023</td><td>YÖS - ثانوية - SAT 1 - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Marmara Üni</td><td>اسطنبول</td><td>20/03/2023</td>
+                                <td>24/03/2023</td><td>10/04/2023</td><td>موحد - يوس الجامعة</td>
+                                <td><a href="universites_file/html/Marmara.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>bolu abant izzet baysal Üni 2</td><td>بولو</td><td>27/03/2023</td>
+                                <td>29/03/2023</td><td>31/03/2023</td><td>يوس الجامعة</td>
+                                <td><a href="universites_file/html/bolu abant izzet baysal.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            <tr class="not_empty">
+                                <td>Bilecik Şeyh Edebali (1500 ₺ )</td><td>	بيلجيك</td><td>24/03/2023</td>
+                                <td>31/03/2023</td><td>07/04/2023</td><td>ثانوية - YÖS - موحد </td>
+                                <td><a href="universites_file/html/Bilecik Şeyh Edebali.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit Üni 3(50$)</td><td>تشوروم</td><td>20/03/2023</td>
+                                <td>31/03/2023</td><td>03/04/2023</td><td>YÖS - ثانوية - SAT 1 - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bartın Üni</td><td>بارتن</td><td>13/03/2023</td>
+                                <td>02/04/2023</td><td>13/04/2023</td><td>YÖS - ثانوية - SAT 1 - موحد</td>
+                                <td><a href="universites_file/html/Bartın.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Balıkesir Üni</td><td>	بالك اسير</td><td>30/03/2023</td>
+                                <td>07/04/2023</td><td>17/04/2023</td><td>YÖS - SAT - موحد</td>
+                                <td><a href="universites_file/html/Balıkesir.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kütahya Dumlupinar Üni</td><td>كوتاهيا</td><td>04/04/2023</td>
+                                <td>14/04/2023</td><td>00/00/0000</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Kütahya Dumlupınar.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Dokuz Eylül Üni 2</td><td>ازمير</td><td>03/04/2023</td>
+                                <td>17/04/2023</td><td>16/06/2023</td><td>يوس الجامعة</td>
+                                <td><a href="universites_file/html/dokuz eylül.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Adıyaman Üni </td><td>اديامان</td><td>05/04/2023</td>
+                                <td>23/04/2023</td><td>01/05/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Adıyaman.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit Üni 4(50$)</td><td>تشوروم</td><td>17/04/2023</td>
+                                <td>05/05/2023</td><td>08/05/2023</td><td>YÖS - ثانوية - SAT 1 - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Ankara Sosyal Bilimler Üni</td><td>انقرة</td><td>14/04/2023</td>
+                                <td>14/05/2023</td><td>26/05/2023</td><td>YÖS - ثانوية - SAT 1 - موحد</td>
+                                <td><a href="universites_file/html/Ankara Sosyal Bilimler.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Karabük (100 TL) Üni</td><td>كارابوك</td><td>01/05/2023</td>
+                                <td>15/05/2023</td><td>18/05/2023</td><td>موحد</td>
+                                <td><a href="universites_file/html/Karabük.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bolu Abant İzzet Baysal Üni 3 (1250 ₺) </td><td>بولو</td><td>08/05/2023</td>
+                                <td>15/05/2023</td><td>16/05/2023</td><td>ثانوية</td>
+                                <td><a href="universites_file/html/bolu abant izzet baysal.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>İzmir Yüksek Teknoloji Üni</td><td>ازمير</td><td>03/04/2023</td>
+                                <td>19/05/2023</td><td>14/06/2023</td><td>موحد - SAT</td>
+                                <td><a href="universites_file/html/izmir yüksek teknolojı enstitüsü.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bursa Teknik  Üni 2</td><td>بورصة</td><td>24/05/2023</td>
+                                <td>24/05/2023</td><td>29/05/2023</td><td>	YÖS - ثانوية - SAT</td>
+                                <td><a href="universites_file/html/Bursa Teknik.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Batman Üni </td><td>باتمان</td><td>17/04/2023</td>
+                                <td>26/05/2023</td><td>22/06/2023</td><td>	YÖS - ثانوية - SAT</td>
+                                <td><a href="universites_file/html/Batman.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit Üni 5 (50 $) </td><td>	تشوروم</td><td>15/05/2023</td>
+                                <td>26/05/2023</td><td>	29/05/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Niğde Ömer Halisdemir Üni </td><td>	نيغدة</td><td>15/05/2023</td>
+                                <td>28/05/2023</td><td>16/06/2023</td><td>YÖS - ثانوية - SAT </td>
+                                <td><a href="universites_file/html/Niğde Ömer Halisdemir.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bartın  Üni 2</td><td>بارتن</td><td>08/05/2023</td>
+                                <td>28/05/2023</td><td>07/06/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Bartın.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bolu Abant İzzet Baysal   Üni 4</td><td>بولو</td><td>23/05/2023</td>
+                                <td>28/05/2023</td><td>31/05/2023</td><td>يوس الجامعة</td>
+                                <td><a href="universites_file/html/bolu abant izzet baysal.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Muğla Sıtkı Koçman Üni</td><td>موغلا</td><td>02/05/2023</td>
+                                <td>31/05/2023</td><td>00/00/0000</td><td>ثانوية - SAT - موحد </td>
+                                <td><a href="universites_file/html/Muğla Sıtkı Koçman.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Anadolu  Üni 2</td><td>اسكي شهير</td><td>13/02/2023</td>
+                                <td>09/06/2023</td><td>16/06/2023</td><td>ثانوية - SAT </td>
+                                <td><a href="universites_file/html/Anadolu.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Düzce Üni </td><td>	دوزجة</td><td>07/04/2023</td>
+                                <td>01/05/2023</td><td>00/00/0000</td><td>SAT - موحد</td>
+                                <td><a href="universites_file/html/Duzce.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bursa Teknik  Üni 3</td><td>بورصة</td><td>08/06/2023</td>
+                                <td>09/06/2023</td><td>14/06/2023</td><td>YÖS - ثانوية - SAT</td>
+                                <td><a href="universites_file/html/Bursa Teknik.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kastamonu Üni </td><td>كاستامونو</td><td>01/06/2023</td>
+                                <td>11/06/2023</td><td>23/06/2023</td><td>يوس الجامعة</td>
+                                <td><a href="universites_file/html/Kastamonu.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Pamukkale Üni (600 TL)  </td><td>دنيزلي</td><td>01/06/2023</td>
+                                <td>11/06/2023</td><td>07/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Pamukkale.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Çukurova Üni </td><td>اضنة</td><td>23/05/2023</td>
+                                <td>11/06/2023</td><td>00/00/0000</td><td>YÖS - SAT - موحد</td>
+                                <td><a href="universites_file/html/Çukurova.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Mersin Üni </td><td>مرسين</td><td>29/05/2023</td>
+                                <td>12/06/2023</td><td>19/06/2023</td><td>يوس الجامعة - موحد</td>
+                                <td><a href="universites_file/html/Mersin.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Anadolu  Üni 3</td><td>	اسكي شهير</td><td>09/06/2023</td>
+                                <td>14/06/2023</td><td>16/06/2023</td><td>يوس الجامعة 2023 - موحد</td>
+                                <td><a href="universites_file/html/Anadolu.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>İzmir Katip Çelebi  Üni </td><td>ازمير </td><td>14/04/2023</td>
+                                <td>15/06/2023</td><td>26/06/2023</td><td> YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/İzmir Kâtip Çelebi.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Karabük (100 TL) Üni 2</td><td>	كارابوك</td><td>10/06/2023</td>
+                                <td>15/06/2023</td><td>16/06/2023</td><td> يوس الجامعة</td>
+                                <td><a href="universites_file/html/Karabük.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Mustafa Kemal Üni </td><td>	هاتاي</td><td>07/06/2023</td>
+                                <td>16/06/2023</td><td>04/07/2023</td><td>YÖS - موحد</td>
+                                <td><a href="universites_file/html/Mustafa Kemal.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Eskişehir Teknik Üni </td><td>اسكي شهير</td><td>05/06/2023</td>
+                                <td>16/06/2023</td><td>23/06/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Eskişehir Teknik.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hacettepe Üni </td><td>انقرة</td><td>29/05/2023</td>
+                                <td>16/06/2023</td><td>04/07/2023</td><td>SAT - موحد</td>
+                                <td><a href="universites_file/html/Hacettepe.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Ankara Yıldırım Beyazıt Üni </td><td>انقرة</td><td>15/05/2023</td>
+                                <td>16/06/2023</td><td>25/07/2023</td><td>YÖS - ثانوية - SAT 1</td>
+                                <td><a href="universites_file/html/Ankara Yıldırım Beyazıt.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Adıyaman Üni 2</td><td>اديامان</td><td>22/05/2023</td>
+                                <td>19/06/2023</td><td>25/06/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Adıyaman.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit  Üni 6 (50 $) </td><td>	تشوروم</td><td>05/06/2023</td>
+                                <td>19/06/2023</td><td>19/06/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Sakarya  Üni  </td><td>	سكاريا</td><td>15/05/2023</td>
+                                <td>23/06/2023</td><td>20/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Sakarya.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Yalova  Üni  </td><td>يالوفا</td><td>12/06/2023</td>
+                                <td>23/06/2023</td><td>14/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Yalova.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kocaeli   Üni  (20 $)</td><td>كوجالي</td><td>15/06/2023</td>
+                                <td>25/06/2023</td><td>00/00/0000</td><td>ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/kocaeli.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Ondokuz Mayıs   Üni</td><td>سامسون</td><td>16/06/2023</td>
+                                <td>27/06/2023</td><td>10/07/2023</td><td> يوس الجامعة </td>
+                                <td><a href="universites_file/html/ondokuz mayıs.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Siirt   Üni</td><td>سيرت</td><td>01/06/2023</td>
+                                <td>28/06/2023</td><td>17/07/2023</td><td>يوس الجامعة - موحد - ثانوية - SAT 1 </td>
+                                <td><a href="universites_file/html/Siirt.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Manisa Celal Bayar Üni</td><td>مانيسا</td><td>12/06/2023</td>
+                                <td>30/06/2023</td><td>14/07/2023</td><td> يوس الجامعة 2022 - موحد </td>
+                                <td><a href="universites_file/html/Manisa Celal Bayar.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit  Üni 7 (50 $)</td><td>تشوروم</td><td>19/06/2023</td>
+                                <td>30/06/2023</td><td>	03/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Samsun  Üni </td><td>سامسون</td><td>15/06/2023</td>
+                                <td>30/06/2023</td><td>12/07/2023</td><td>YÖS - موحد</td>
+                                <td><a href="universites_file/html/Samsun.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bandırma 17 Eylül  Üni </td><td>بندرما</td><td>07/06/2023</td>
+                                <td>30/06/2023</td><td>07/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Bandırma on yedi eylül.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bolu Abant İzzet Baysal  Üni  5 (1750)</td><td>بولو</td><td>19/06/2023</td>
+                                <td>30/06/2023</td><td>10/07/2023</td><td>ثانوية</td>
+                                <td><a href="universites_file/html/bolu abant izzet baysal.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Adana Bilim ve Teknoloji  Üni</td><td>اضنة</td><td>13/06/2023</td>
+                                <td>04/07/2023</td><td>14/07/2023</td><td>SAT - موحد</td>
+                                <td><a href="universites_file/html/Adana Bilim ve Teknoloji.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Adıyaman   Üni 3</td><td>اديامان</td><td>20/06/2023</td>
+                                <td>03/07/2023</td><td>16/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Adıyaman.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Uludağ   Üni </td><td>بورصة</td><td>21/06/2023</td>
+                                <td>07/07/2023</td><td>24/07/2023</td><td>يوس الجامعة - موحد</td>
+                                <td><a href="universites_file/html/Uludağ.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Eskişehir Osmangazi   Üni </td><td>	اسكي شهير</td><td>03/07/2023</td>
+                                <td>07/07/2023</td><td>00/00/0000</td><td> لم تعلن</td>
+                                <td><a href="universites_file/html/Eskişehir Osman Gazi.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Aksaray   Üni </td><td>	اكسراي </td><td>26/06/2023</td>
+                                <td>07/07/2023</td><td>24/07/2023</td><td> YÖS - ثانوية </td>
+                                <td><a href="universites_file/html/Aksaray.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kırklareli   Üni </td><td>كركلارلة </td><td>05/06/2023</td>
+                                <td>07/07/2023</td><td>14/07/2023</td><td>موحد - ثانوية</td>
+                                <td><a href="universites_file/html/Kırklareli.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kırıkkale   Üni </td><td>كركالة </td><td>12/06/2023</td>
+                                <td>07/07/2023</td><td>17/07/2023</td><td>YÖS - موحد </td>
+                                <td><a href="universites_file/html/Kırıkkale.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Dokuz Eylül Üni 3</td><td>	ازمير </td><td>	15/06/2023</td>
+                                <td>07/07/2023</td><td>31/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/dokuz eylül.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Ankara Sosyal Bilimler  Üni 2</td><td>	انقرة </td><td>		18/05/2023</td>
+                                <td>10/07/2023</td><td>24/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Ankara Sosyal Bilimler.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Boğaziçi  Üni </td><td>	اسطنبول </td><td>07/07/2023</td>
+                                <td>13/07/2023</td><td>00/00/0000</td><td>لم تعلن</td>
+                                <td><a href="universites_file/html/Boğaziçi.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Ankara  Üni </td><td>	انقرة </td><td>03/07/2023</td>
+                                <td>16/07/2023</td><td>31/07/2023</td><td>يوس الجامعة - توجيهي - SAT - موحد </td>
+                                <td><a href="universites_file/html/Ankara.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Ordu  Üni </td><td>	اوردو	 </td><td>10/07/2023</td>
+                                <td>16/07/2023</td><td>24/08/2023</td><td>يوس الجامعة - موحد</td>
+                                <td><a href="universites_file/html/Ordu.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Sağlık Bilimleri Üni </td><td>انقرة - اسطنبول</td><td>03/07/2023</td>
+                                <td>16/07/2023</td><td>29/07/2023</td><td>YÖS - SAT - موحد</td>
+                                <td><a href="universites_file/html/Sağlık  Bilimleri.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Sakarya Uygulamalı Bilimler Üni </td><td>سكاريا</td><td>05/06/2023</td>
+                                <td>16/07/2023</td><td>31/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Sakarya Uygulamalı Bilimler.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Adnan Menderes Üni </td><td>آيدن</td><td>05/06/2023</td>
+                                <td>17/07/2023</td><td>11/08/2023</td><td>YÖS - ثانوية - SAT 1</td>
+                                <td><a href="universites_file/html/Aydın Adnan Menderes.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>İstanbul Üni </td><td>اسطنبول</td><td>13/07/2023</td>
+                                <td>20/07/2023</td><td>27/07/2023</td><td>يوس الجامعة - موحد</td>
+                                <td><a href="universites_file/html/istanbul.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Tarsus Üni </td><td>مرسين</td><td>03/07/2023</td>
+                                <td>20/07/2023</td><td>01/08/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Tarsus.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kastamonu  Üni 2</td><td>كاستامونو</td><td>10/07/2023</td>
+                                <td>21/07/2023</td><td>31/07/2023</td><td>YÖS - ثانوية - SAT</td>
+                                <td><a href="universites_file/html/Kastamonu.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bülent Ecevit  Üni </td><td>زونجولداك</td><td>03/07/2023</td>
+                                <td>21/07/2023</td><td>28/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Zonguldak Bülent Ecevit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit  Üni 8 (50 $)  </td><td>	تشوروم</td><td>10/07/2023</td>
+                                <td>21/07/2023</td><td>24/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Mersin   Üni 2  </td><td>مرسين</td><td>17/07/2023</td>
+                                <td>23/07/2023</td><td>31/07/2023</td><td>يوس الجامعة - ACT - موحد</td>
+                                <td><a href="universites_file/html/Mersin.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Erciyes    Üni (300 TL)</td><td>قيصري</td><td>03/07/2023</td>
+                                <td>26/07/2023</td><td>00/00/0000</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Erciyes.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Mustafa Kemal   Üni 2</td><td>هاتاي</td><td>19/07/2023</td>
+                                <td>28/07/2023</td><td>07/08/2023</td><td>YÖS - موحد</td>
+                                <td><a href="universites_file/html/Mustafa Kemal.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Eskişehir Teknik Üni 2</td><td>اسكي شهير</td><td>24/07/2023</td>
+                                <td>28/07/2023</td><td>31/07/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Eskişehir Teknik.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Balıkesir Üni 2</td><td>بالك اسير </td><td>24/07/2023</td>
+                                <td>28/07/2023</td><td>07/08/2023</td><td>يوس الجامعة</td>
+                                <td><a href="universites_file/html/Balıkesir.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kütahya Sağlık Bilimleri  Üni (100$)</td><td>كوتاهيا  </td><td>24/07/2023</td>
+                                <td>28/07/2023</td><td>04/08/2023</td><td>YÖS - ثانوية - SAT - موحد </td>
+                                <td><a href="universites_file/html/Kütahya Sağlık Bilimleri.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Ağrı İbrahim Çeçen  Üni </td><td>	اغري  </td><td>20/06/2023</td>
+                                <td>29/07/2023</td><td>08/08/2023</td><td>YÖS - ثانوية - SAT </td>
+                                <td><a href="universites_file/html/Ağrı İbrahim Çeçen.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Gazi  Üni </td><td>انقرة  </td><td>19/06/2023</td>
+                                <td>30/07/2023</td><td>11/08/2023</td><td>لم تعلن</td>
+                                <td><a href="universites_file/html/gazi.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kırıkkale   Üni 2</td><td>	كركالة  </td><td>31/07/2023</td>
+                                <td>02/08/2023</td><td>07/08/2023</td><td>YÖS - موحد </td>
+                                <td><a href="universites_file/html/Kırıkkale.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Marmara   Üni 3</td><td>اسطنبول</td><td>31/07/2023</td>
+                                <td>03/08/2023</td><td>28/08/2023</td><td>يوس الجامعة</td>
+                                <td><a href="universites_file/html/Marmara.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit Üni 9 (50 $)   </td><td>تشوروم</td><td>24/07/2023</td>
+                                <td>04/08/2023</td><td>07/08/2023</td><td> YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Niğde Ömer Halisdemir Üni 2   </td><td>	نيغدة</td><td>01/08/2023</td>
+                                <td>06/08/2023</td><td>14/08/2023</td><td>YÖS - SAT</td>
+                                <td><a href="universites_file/html/Niğde Ömer Halisdemir.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Yıldız Teknik Üni</td><td>	اسطنبول</td><td>31/07/2023</td>
+                                <td>09/08/2023</td><td>21/08/2023	</td><td>SAT</td>
+                                <td><a href="universites_file/html/Yıldız Teknik.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Artvin Çoruh Üni</td><td>ارتفين</td><td>01/08/2023</td>
+                                <td>10/08/2023</td><td>28/08/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Artvin Çoruh.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Abdullah Gül Üni</td><td>قيصري</td><td>27/01/2023</td>
+                                <td>11/08/2023</td><td>00/00/0000</td><td>SAT - موحد</td>
+                                <td><a href="universites_file/html/Abdullah Gül.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Anadolu  Üni 4</td><td>اسكي شهير</td><td>31/07/2023</td>
+                                <td>11/08/2023</td><td>15/08/2023</td><td>يوس الجامعة - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Anadolu.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Siirt   Üni 2</td><td>سيرت</td><td>17/07/2023</td>
+                                <td>11/08/2023</td><td>22/08/2023</td><td>يوس الجامعة - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Siirt.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Sakarya Uygulamalı Bilimler Üni 2</td><td>سكاريا</td><td>24/07/2023</td>
+                                <td>13/08/2023</td><td>25/08/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Sakarya Uygulamalı Bilimler.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kastamonu Üni 3</td><td>كاستامونو</td><td>08/08/2023</td>
+                                <td>14/08/2023</td><td>21/08/2023</td><td>YÖS - ثانوية - SAT</td>
+                                <td><a href="universites_file/html/Kastamonu.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Marmara Üni 2</td><td>اسطنبول</td><td>11/08/2023</td>
+                                <td>14/08/2023</td><td>21/08/2023</td><td>موحد</td>
+                                <td><a href="universites_file/html/Marmara.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Samsun Üni 2</td><td>سامسون</td><td>12/08/2023</td>
+                                <td>16/08/2023</td><td>21/08/2023</td><td>YÖS - موحد</td>
+                                <td><a href="universites_file/html/Samsun.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Pamukkale Üni 2</td><td>دنيزلي</td><td>11/08/2023</td>
+                                <td>18/08/2023</td><td>15/09/2023</td><td>YÖS - ثانوية - SAT</td>
+                                <td><a href="universites_file/html/Pamukkale.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>İzmir Yüksek Teknoloji Üni 2</td><td>ازمير</td><td>14/08/2023</td>
+                                <td>18/08/2023</td><td>08/09/2023</td><td>YÖS - SAT - موحد</td>
+                                <td><a href="universites_file/html/izmir yüksek teknolojı enstitüsü.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Karamanoğlu Mehmetbey Üni </td><td>كارامان</td><td>17/07/2023</td>
+                                <td>18/08/2023</td><td>22/08/2023</td><td>ثانوية</td>
+                                <td><a href="universites_file/html/Karamanoğlu Mehmetbey.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kütahya Sağlık Bilimleri  Üni 2 (100 $)</td><td>كوتاهيا</td><td>14/08/2023</td>
+                                <td>18/08/2023</td><td>25/08/2023</td><td>	YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Kütahya Sağlık Bilimleri.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Mersin  Üni 3</td><td>مرسين</td><td>14/08/2023</td>
+                                <td>20/08/2023</td><td>28/08/2023</td><td>يوس الجامعة - ACT - موحد</td>
+                                <td><a href="universites_file/html/Mersin.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bayburt  Üni</td><td>بايبورت</td><td>17/07/2023</td>
+                                <td>20/08/2023</td><td>25/08/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Bayburt.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Çankırı Karatekin Üni</td><td>	تشانكري</td><td>01/05/2023</td>
+                                <td>21/08/2023</td><td>00/00/0000</td><td>YÖS - ثانوية - موحد</td>
+                                <td><a href="universites_file/html/Çankırı Karatekin.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Ondokuz Mayıs Üni 2</td><td>سامسون</td><td>12/08/2023</td>
+                                <td>21/08/2023</td><td>04/09/2023</td><td>YÖS - موحد</td>
+                                <td><a href="universites_file/html/ondokuz mayıs.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit  Üni 10 (50 $)</td><td>تشوروم</td><td>14/08/2023</td>
+                                <td>25/08/2023</td><td>28/08/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kırklareli  Üni 2</td><td>كركلارلة</td><td>15/08/2023</td>
+                                <td>25/08/2023</td><td>01/09/2023</td><td>موحد - ثانوية</td>
+                                <td><a href="universites_file/html/Kırklareli.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Niğde Ömer Halisdemir  Üni 3</td><td>نيغدة</td><td>29/08/2023</td>
+                                <td>01/09/2023</td><td>08/09/2023</td><td>YÖS - SAT</td>
+                                <td><a href="universites_file/html/Niğde Ömer Halisdemir.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Yalova  Üni 2</td><td>يالوفا</td><td>28/08/2023</td>
+                                <td>01/09/2023</td><td>11/09/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Yalova.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Sakarya  Üni 2</td><td>سكاريا</td><td>25/08/2023</td>
+                                <td>03/09/2023</td><td>21/09/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Sakarya.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit   Üni 11 (50 $)</td><td>تشوروم</td><td>28/08/2023</td>
+                                <td>08/09/2023</td><td>11/09/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Marmara   Üni 4</td><td>اسطنبول</td><td>08/09/2023</td>
+                                <td>11/09/2023</td><td>28/09/2023</td><td>يوس الجامعة</td>
+                                <td><a href="universites_file/html/Marmara.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bülent Ecevit   Üni 2</td><td>	زونجولداك</td><td>04/09/2023</td>
+                                <td>15/09/2023</td><td>22/09/2023</td><td>YÖS - ثانوية - SAT - موحد </td>
+                                <td><a href="universites_file/html/Zonguldak Bülent Ecevit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Adnan Menderes  Üni 2</td><td>آيدن</td><td>12/09/2023</td>
+                                <td>17/09/2023</td><td>22/09/2023</td><td>YÖS - ثانوية - SAT 1</td>
+                                <td><a href="universites_file/html/Aydın Adnan Menderes.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Aksaray Üni 2</td><td>اكسراي</td><td>11/09/2023</td>
+                                <td>17/09/2023</td><td>26/09/2023</td><td>YÖS - ثانوية</td>
+                                <td><a href="universites_file/html/Aksaray.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Hitit  Üni 12 (50 $)</td><td>تشوروم</td><td>18/09/2023</td>
+                                <td>29/09/2023</td><td>29/09/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Hitit.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Sakarya Uygulamalı Bilimler Üni 3</td><td>سكاريا</td><td>18/09/2023</td>
+                                <td>08/10/2023</td><td>20/10/2023</td><td>YÖS - ثانوية - SAT - موحد</td>
+                                <td><a href="universites_file/html/Sakarya Uygulamalı Bilimler.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kırklareli Üni 3</td><td>كركلارلة</td><td>03/10/2023</td>
+                                <td>08/10/2023</td><td>11/10/2023</td><td>موحد - ثانوية</td>
+                                <td><a href="universites_file/html/Kırklareli.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Kırklareli Üni 4</td><td>كركلارلة</td><td>14/11/2023</td>
+                                <td>19/11/2023</td><td>24/11/2023</td><td>موحد - ثانوية</td>
+                                <td><a href="universites_file/html/Kırklareli.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            <tr class="not_empty">
+                                <td>Bayburt Üni 2</td><td>بايبورت</td><td>06/11/2023</td>
+                                <td>03/12/2023</td><td>11/12/2023</td><td> YÖS - ثانوية - SAT - موحد </td>
+                                <td><a href="universites_file/html/Bayburt.html">اضغط هنا</a></td>
+                            </tr>
+                            <tr class="empty">
+                                <td></td><td></td><td></td>
+                                <td></td><td></td><td></td><td></td>
+                            </tr>
+                            
+
+
+
+                            
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="7" class="finish">
+                                            <p>مع تمنيات فريق تسجيل يوني لكم بالتوفيق</p>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                            
+                        </article>
+                        </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <script>
+        document.querySelector('div').addEventListener('contextmenu',disableRightClick);
+        document.querySelector('img').addEventListener('contextmenu', disableRightClick);
+        document.addEventListener('contextmenu', disableRightClick);
+        function disableRightClick(e) {
+            e.preventDefault();
+        }
+        </script>
+    
+</body>
+</html>
